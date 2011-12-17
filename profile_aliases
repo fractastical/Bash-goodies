@@ -1,0 +1,86 @@
+# At this point mostly from @TopFunky
+
+# Command Enhancements
+
+
+# Quicker cd
+alias ct='cd ~/tech'
+alias ce='cd ~/tech/eclipse'
+#alias cg='cd /usr/local/lib/ruby/gems/1.8/gems'
+
+# Common -- Some are from Damian Conway
+alias s='cd ..' 	# up one dir
+alias cdd='cd -' 	# goto last dir cd'ed from
+alias r='mv \!* ~/.Trash'
+
+alias l='ls -lhG \!* | more'	# -l long listing
+								# -h human readable
+								# -G no group info
+alias lh="ls -lh"
+alias lt='ls -lt | more'	# sort with recently modified first
+alias a='ls -A'	# -A all except literal . ..
+alias la='ls -lhGA \!* | more'
+
+alias take='mkdir \!*; cd \!*'
+
+alias h='history'
+alias ho='cd ~/'
+
+alias c='clear'
+alias cl='clear; l'
+alias cls='clear; ls'
+
+alias grep='grep -I --exclude="*.svn*" -r'
+
+alias take='mkdir \!* && cd \!*'
+
+alias e='exit'
+
+alias k9="killall -9"
+
+alias rmm="mv \!* ~/.Trash"
+
+# Finder
+alias o='open . &'
+alias ff='open -a Firefox'
+alias chr='open -a Chrome'
+alias saf='open -a Safari'
+
+# Ruby
+alias irb='irb --readline -r irb/completion'
+alias rii='ri -Tf ansi'
+
+# Processes
+alias topcpu='top -o cpu' # cpu
+alias topmem='top -o vsize' # memory
+
+# Git
+alias gi='git init'
+alias gc='git commit'
+alias gcm='git commit -am'
+alias gpom='git push origin master'
+alias gph='git push heroku master'
+alias gstage='git push origin master;git push staging master'
+alias gprod='git push production master'
+alias gstageprod='git push origin master;git push staging master;git push production master'
+
+# TextMate
+alias tm='mate'
+alias tm.='mate . &'
+alias tmt='mate app config lib db public spec test vendor/plugins Rakefile Capfile README &'
+alias tmts='mate app config lib db public script spec test vendor/plugins Rakefile Capfile README &'
+
+# Ruby
+alias att='autotest'
+
+# Rails
+alias ss='./script/server'
+alias sc='./script/console'
+alias sg='./script/generate'
+alias sp='./script/plugin'
+alias mr='mongrel_rails start'
+alias ms='mongrel_rails stop'
+
+# TDD
+
+alias rsk="rstakeout \!* 'app/**/*' 'test/**/*' 'config/*'"
