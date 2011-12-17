@@ -7,6 +7,22 @@
 alias ct='cd ~/tech'
 alias ce='cd ~/tech/eclipse'
 #alias cg='cd /usr/local/lib/ruby/gems/1.8/gems'
+ 
+# Git
+alias gi='git init'
+alias gc='git commit'
+alias gcm='git commit -am'
+alias gpom='git push origin master'
+alias gph='git push heroku master'
+alias gstage='git push origin master;git push staging master'
+alias gprod='git push production master'
+alias gstageprod='git push origin master;git push staging master;git push production master'
+
+# TextMate
+alias tm='mate'
+alias tm.='mate . &'
+alias tmt='mate app config lib db public spec test vendor/plugins Rakefile Capfile README &'
+alias tmts='mate app config lib db public script spec test vendor/plugins Rakefile Capfile README &'
 
 # Common -- Some are from Damian Conway
 alias s='cd ..' 	# up one dir
@@ -53,22 +69,6 @@ alias rii='ri -Tf ansi'
 # Processes
 alias topcpu='top -o cpu' # cpu
 alias topmem='top -o vsize' # memory
-
-# Git
-alias gi='git init'
-alias gc='git commit'
-alias gcm='git commit -am'
-alias gpom='git push origin master'
-alias gph='git push heroku master'
-alias gstage='git push origin master;git push staging master'
-alias gprod='git push production master'
-alias gstageprod='git push origin master;git push staging master;git push production master'
-
-# TextMate
-alias tm='mate'
-alias tm.='mate . &'
-alias tmt='mate app config lib db public spec test vendor/plugins Rakefile Capfile README &'
-alias tmts='mate app config lib db public script spec test vendor/plugins Rakefile Capfile README &'
 
 # Ruby
 alias att='autotest'
