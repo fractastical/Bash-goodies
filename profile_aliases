@@ -2,7 +2,6 @@
 
 # Command Enhancements
 
-
 # Quicker cd
 alias ct='cd ~/tech'
 alias ce='cd ~/tech/eclipse'
