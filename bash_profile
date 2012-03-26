@@ -1,6 +1,6 @@
-# Specail credit @TopFunky
+# Special credit @TopFunky
 
-  export PATH=$PATH:/Users/jdietz/tech/archive/Play20:
+  export PATH=$PATH:/Applications/racket5.2.1/bin:
   set prompt="[%/]"
 
   # History
