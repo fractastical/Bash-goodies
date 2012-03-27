@@ -1,0 +1,4 @@
+
+#Folder previews in Quick Look
+defaults write com.apple.finder QLEnableXRayFolders 1
+#killAll finder

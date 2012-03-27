@@ -11,8 +11,6 @@ alias arc='mzscheme -f as.scm'
 #with main option, only works with mzscheme 3.7.2
 alias arcm='mzscheme -f -m as.scm'
 
-
- 
 # Git
 alias gi='git init'
 alias gc='git commit'
