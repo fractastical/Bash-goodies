@@ -1,6 +1,7 @@
 # Special credit @TopFunky
 
-  export PATH=$PATH:/Applications/racket5.2.1/bin:
+  export PATH=$PATH:/Applications/PLTSchemev372/bin:
+
   set prompt="[%/]"
 
   # History
